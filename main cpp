@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "RUS");
+	int language, num;
+
+	cout << "[+] Переводчик\n";
+	cout << endl;
+	cout << "[1] Русские слова\n" << " [2] Английские слова\n\n";
+	cout << "[2] Выйти\n";
+	cin >> language;
+	switch (language) {
+	cout << "[+] Переводчик “Список русских слов\n";
+	cout << "[ 1 ] океан\n";
+	cout << "[ 2 ] слон\n";
+	cout << "[ 3 ] лестница\n";
+	cout << "[ 4 ] планетарий\n";
+	cout << "[ 5 ] самолёт\n";
+	cout << "[ 6 ] воспоминания\n";
+	cout << "[ 7 ] лето\n";
+	cout << "[ 8 ] стелька\n";
+	cout << "[ 9 ] волна\n";
+	cout << "[ 10 ] тупик";
+	cout << "[ 11 ] восстание\n";
+	cout << "[ 12 ] авокадо\n";
+	cout << "[ 13 ] мельница\n";
+	cout << "[ 14 ] лодка\n";
+	cout << "[ 15 ] квартира\n";
+	}
+
+}
