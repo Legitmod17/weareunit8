@@ -54,12 +54,12 @@ int main() {
 		return 0;
 
 	}
-	
+
 	case 6: {
 		cout << "[+] Перевод: воспоминания -> memories";
 		return 0;
 	}
-     
+
 	case 7: {
 		cout << "[+] Перевод: лето -> summer";
 		return 0;
@@ -67,8 +67,8 @@ int main() {
 	case 8: {
 		cout << "[+] Перевод: стелька -> insole";
 		return 0;
-    }
-	
+	}
+
 	case 9: {
 		cout << "[+} Перевод: волна -> wave";
 		return 0;
@@ -78,9 +78,50 @@ int main() {
 
 	case 10: {
 		cout << "[+] Перевод: тупик -> dead end";
+		return 0;
+	}
+
+	case 11: {
+		cout << "[+] Перевод: восстание -> riot";
+		return 0;
+
+	}
+
+	case 12: {
+		cout << "[+] Перевод: авокадо -> avocado";
+		return 0;
 	}
 
 
-
+	case 13: {
+		cout << "[+] Перевод: мельница -> mill";
+		return 0;
 
 	}
+
+	case 14: {
+		cout << "[+] Перевод: лодка -> boat";
+		return 0;
+
+	}
+
+	case 15: {
+		cout << "[+] Перевод: квартира -> apartment";
+	}
+
+		}
+	}
+
+	 case 2: {
+	 cout << "[+] Переводчик “Список англиских слов\n";
+	 cout << "[+] horse\n";
+	 cout << "[+] mockindird\n";
+	 cout << "[+] pancake";
+	 cout << "[+] sweater";
+	 cout << "[+] jeans";
+	 cout << "[+] kettle";
+	 cout << "[+] blueberry";
+	 cout << "[+] moon";
+	 cout << "[+] love";
+	 cout << "[+] pistol";
+	 }
