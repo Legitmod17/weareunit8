@@ -38,11 +38,49 @@ int main() {
 	case 2: {
 		cout << "[+] Перевод: слон -> an elephant";
 		return 0;
-    }
+	}
 	case 3: {
-		cout << "[+] Перевод: лестница -> stare";
+		cout << "[+] Перевод: лестница -> stares";
+		return 0;
+	}
+
+	case 4: {
+		cout << "[+] Перевод: планетарий -> planetarium";
+		return 0;
+	}
+
+	case 5: {
+		cout << "[+] Перевод: самолёт -> plane";
+		return 0;
+
 	}
 	
-	case 4: {
+	case 6: {
+		cout << "[+] Перевод: воспоминания -> memories";
+		return 0;
+	}
+     
+	case 7: {
+		cout << "[+] Перевод: лето -> summer";
+		return 0;
+	}
+	case 8: {
+		cout << "[+] Перевод: стелька -> insole";
+		return 0;
+    }
+	
+	case 9: {
+		cout << "[+} Перевод: волна -> wave";
+		return 0;
+
+
+	}
+
+	case 10: {
+		cout << "[+] Перевод: тупик -> dead end";
+	}
+
+
+
 
 	}
