@@ -31,87 +31,87 @@ int main() {
 		cout << "[3] Выберите номер слова: ";
 		cin >> num;
 	}
-	switch (num) {
-	case 1: {
-		cout << "[+] Перевод: океан -> ocean";
-		return 0;
+		  switch (num) {
+		  case 1: {
+			  cout << "[+] Перевод: океан -> ocean";
+			  return 0;
+		  }
+		  case 2: {
+			  cout << "[+] Перевод: слон -> an elephant";
+			  return 0;
+		  }
+		  case 3: {
+			  cout << "[+] Перевод: лестница -> stares";
+			  return 0;
+		  }
+
+		  case 4: {
+			  cout << "[+] Перевод: планетарий -> planetarium";
+			  return 0;
+		  }
+
+		  case 5: {
+			  cout << "[+] Перевод: самолёт -> plane";
+			  return 0;
+
+		  }
+
+		  case 6: {
+			  cout << "[+] Перевод: воспоминания -> memories";
+			  return 0;
+		  }
+
+		  case 7: {
+			  cout << "[+] Перевод: лето -> summer";
+			  return 0;
+		  }
+		  case 8: {
+			  cout << "[+] Перевод: стелька -> insole";
+			  return 0;
+		  }
+
+		  case 9: {
+			  cout << "[+} Перевод: волна -> wave";
+			  return 0;
+
+
+		  }
+
+		  case 10: {
+			  cout << "[+] Перевод: тупик -> dead end";
+			  return 0;
+		  }
+
+		  case 11: {
+			  cout << "[+] Перевод: восстание -> riot";
+			  return 0;
+
+		  }
+
+		  case 12: {
+			  cout << "[+] Перевод: авокадо -> avocado";
+			  return 0;
+		  }
+
+
+		  case 13: {
+			  cout << "[+] Перевод: мельница -> mill";
+			  return 0;
+
+		  }
+
+		  case 14: {
+			  cout << "[+] Перевод: лодка -> boat";
+			  return 0;
+
+		  }
+
+		  case 15: {
+			  cout << "[+] Перевод: квартира -> apartment";
+		  }
+
+		  }
 	}
-	case 2: {
-		cout << "[+] Перевод: слон -> an elephant";
-		return 0;
-	}
-	case 3: {
-		cout << "[+] Перевод: лестница -> stares";
-		return 0;
-	}
-
-	case 4: {
-		cout << "[+] Перевод: планетарий -> planetarium";
-		return 0;
-	}
-
-	case 5: {
-		cout << "[+] Перевод: самолёт -> plane";
-		return 0;
-
-	}
-
-	case 6: {
-		cout << "[+] Перевод: воспоминания -> memories";
-		return 0;
-	}
-
-	case 7: {
-		cout << "[+] Перевод: лето -> summer";
-		return 0;
-	}
-	case 8: {
-		cout << "[+] Перевод: стелька -> insole";
-		return 0;
-	}
-
-	case 9: {
-		cout << "[+} Перевод: волна -> wave";
-		return 0;
-
-
-	}
-
-	case 10: {
-		cout << "[+] Перевод: тупик -> dead end";
-		return 0;
-	}
-
-	case 11: {
-		cout << "[+] Перевод: восстание -> riot";
-		return 0;
-
-	}
-
-	case 12: {
-		cout << "[+] Перевод: авокадо -> avocado";
-		return 0;
-	}
-
-
-	case 13: {
-		cout << "[+] Перевод: мельница -> mill";
-		return 0;
-
-	}
-
-	case 14: {
-		cout << "[+] Перевод: лодка -> boat";
-		return 0;
-
-	}
-
-	case 15: {
-		cout << "[+] Перевод: квартира -> apartment";
-	}
-
-	}
-}
 
 	 case 2: {
 		 cout << "[+] Переводчик “Список англиских слов\n";
@@ -128,7 +128,7 @@ int main() {
 		 cout << "[+] sunshine\n";
 		 cout << "[+] widow\n";
 		 cout << "[+] calvary\n";
-		 cout << "[+] desination\n";
+		 cout << "[+] destination\n";
 		 cout << "{+] weakness\n";
 		 cout << "[3] Выберите # слова : ";
 		 cin >> num;
@@ -150,7 +150,7 @@ int main() {
 		 case 4: {
 			 cout << "[ + ] Перевод: sweater -> свитер";
 			 return 0;
-	     }
+		 }
 
 		 case 5: {
 			 cout << "[ + ] Перевод: jeans -> джинсы";
@@ -172,7 +172,7 @@ int main() {
 			 return 0;
 
 		 }
-		 
+
 		 case 9: {
 			 cout << "[ + ] Перевод: love -> любовь";
 			 return 0;
@@ -183,12 +183,34 @@ int main() {
 			 return 0;
 		 }
 		 case 11: {
-			 cout << "[ + ] Перевод: "
-
+			 cout << "[ + ] Перевод: sunshine -> солнечный свет";
+			 return 0;
 		 case 12: {
-				 cout << ""
+			 cout << "[ + ] Перевод: widow -> вдова";
+			 return 0;
+		 }
+
+		 case 13: {
+			 cout << "[ + ] Перевод: calvary -> распятие";
+			 return 0;
+		 }
+
+		 case 14: {
+			 cout << "[ + ] Перевод: destination -> пункт назначения";
+			 return 0;
+		 }
+		 case 15: {
+			 cout << "[ + ] Перевод: weakness -> слабость";
+			 return 0;
+		 }
+
+		 
+				 
+
+
 
 		 }
 
 		 }
-	 }
+
+		 }
