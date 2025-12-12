@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	setlocale(0, "RUS");
+	setlocale(0, "");
 	int language, num;
 
 	cout << "[+] Переводчик\n";
@@ -11,6 +11,7 @@ int main() {
 	cout << "[2] Выйти\n";
 	cin >> language;
 	switch (language) {
+	case 1: {
 		cout << "[+] Переводчик “Список русских слов\n";
 		cout << "[ 1 ] океан\n";
 		cout << "[ 2 ] слон\n";
@@ -109,19 +110,85 @@ int main() {
 		cout << "[+] Перевод: квартира -> apartment";
 	}
 
-		}
 	}
+}
 
 	 case 2: {
-	 cout << "[+] Переводчик “Список англиских слов\n";
-	 cout << "[+] horse\n";
-	 cout << "[+] mockindird\n";
-	 cout << "[+] pancake";
-	 cout << "[+] sweater";
-	 cout << "[+] jeans";
-	 cout << "[+] kettle";
-	 cout << "[+] blueberry";
-	 cout << "[+] moon";
-	 cout << "[+] love";
-	 cout << "[+] pistol";
+		 cout << "[+] Переводчик “Список англиских слов\n";
+		 cout << "[+] horse\n";
+		 cout << "[+] mockindird\n";
+		 cout << "[+] pancake\n";
+		 cout << "[+] sweater\n";
+		 cout << "[+] jeans\n";
+		 cout << "[+] kettle\n";
+		 cout << "[+] blueberry\n";
+		 cout << "[+] moon\n";
+		 cout << "[+] love\n";
+		 cout << "[+] pistol\n";
+		 cout << "[+] sunshine\n";
+		 cout << "[+] widow\n";
+		 cout << "[+] calvary\n";
+		 cout << "[+] desination\n";
+		 cout << "{+] weakness\n";
+		 cout << "[3] Выберите # слова : ";
+		 cin >> num;
+		 switch (num) {
+		 case 1: {
+			 cout << "[ + ] Перевод: horse -> лошадь";
+			 return 0;
+		 }
+		 case 2: {
+			 cout << "[ + ] Перевод: mockinbird -> пересмешник";
+			 return 0;
+
+		 }
+		 case 3: {
+			 cout << "[ + ] Перевод: pancake -> оладья";
+			 return 0;
+
+		 }
+		 case 4: {
+			 cout << "[ + ] Перевод: sweater -> свитер";
+			 return 0;
+	     }
+
+		 case 5: {
+			 cout << "[ + ] Перевод: jeans -> джинсы";
+			 return 0;
+
+		 }
+		 case 6: {
+			 cout << "[ + ] Перевод: kettle -> чайник";
+			 return 0;
+
+		 }
+		 case 7: {
+			 cout << "[ + ]  Перевод: blueberry -> черника";
+			 return 0;
+
+		 }
+		 case 8: {
+			 cout << "[ + ] Перевод: moon -> луна";
+			 return 0;
+
+		 }
+		 
+		 case 9: {
+			 cout << "[ + ] Перевод: love -> любовь";
+			 return 0;
+
+		 }
+		 case 10: {
+			 cout << "[ + ] Перевод: pistol -> пистолет";
+			 return 0;
+		 }
+		 case 11: {
+			 cout << "[ + ] Перевод: "
+
+		 case 12: {
+				 cout << ""
+
+		 }
+
+		 }
 	 }
